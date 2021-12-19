@@ -1,0 +1,32 @@
+.choice {
+  border: solid 2px #f4a261;
+  padding: 25px;
+  background-color: #f2f8fa;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #2a9d8f;
+}
+
+.links a:hover {
+  color: #264653;
+}
+
+.forgot-password {
+  margin-bottom: 10px;
+}
+
+/* Sign in button */
+.btn-signIn {
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+}

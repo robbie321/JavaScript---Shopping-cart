@@ -1,0 +1,8 @@
+#triangle-topleft {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 700px solid #264653;
+  border-right: 900px solid transparent;
+  z-index: -100;
+}
