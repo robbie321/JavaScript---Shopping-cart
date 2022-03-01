@@ -116,7 +116,7 @@ function submitDonation(){
         localStorage.setItem("Donations", JSON.stringify(oldItem));
 
 
-        // window.location.replace("shop.html");
+        window.location.replace("shop.html");
 
 
         // dont refresh

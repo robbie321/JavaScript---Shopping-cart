@@ -34,7 +34,7 @@ function loadDonations(){
         const link = document.createElement("a")
         link.className = "secondary-bg "
         link.innerHTML = "List an item"
-        link.href = "../pages/donate.html"
+        link.href = "../donate.html"
         link.style = "color: white; padding: 1em 1.75em 1em 1.75em;"
 
 
@@ -289,7 +289,7 @@ function addToCartHTML(){
         checkoutButton.style = "width:95%;"
         checkoutButton.innerHTML = "Checkout"
         checkoutButton.onclick = function goToCheckout(){
-            location.href = '../pages/checkout.html'
+            location.href = '../checkout.html'
         }
 
         // append button to div
